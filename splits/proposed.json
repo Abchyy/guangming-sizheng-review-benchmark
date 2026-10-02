@@ -1,0 +1,184 @@
+{
+  "version": "0.1.0",
+  "status": "proposal_only_not_independent_test",
+  "seed": "sz-v0.1-proposal",
+  "allocation_method": "hash_order_whole_group_quota_60_20_20_not_stratified",
+  "limitations": [
+    "Small cluster count may leave a candidate set empty; manually stratify whole groups.",
+    "Public synthetic seeds remain development material regardless of proposal."
+  ],
+  "groups": 10,
+  "group_split_counts": {
+    "dev": 6,
+    "validation_candidate": 2,
+    "test_candidate": 2
+  },
+  "split_counts": {
+    "validation_candidate": 5,
+    "dev": 8,
+    "test_candidate": 3
+  },
+  "records": [
+    {
+      "id": "sz-001",
+      "source_cluster": "cluster-7447e5b663ec",
+      "proposed_split": "validation_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "correct",
+        "terminology"
+      ]
+    },
+    {
+      "id": "sz-002",
+      "source_cluster": "cluster-7447e5b663ec",
+      "proposed_split": "validation_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error_candidate",
+        "terminology"
+      ]
+    },
+    {
+      "id": "sz-003",
+      "source_cluster": "cluster-7447e5b663ec",
+      "proposed_split": "validation_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "confusable",
+        "negative_example"
+      ]
+    },
+    {
+      "id": "sz-004",
+      "source_cluster": "cluster-159bd054eeb3",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "correct",
+        "date"
+      ]
+    },
+    {
+      "id": "sz-005",
+      "source_cluster": "cluster-159bd054eeb3",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error_candidate",
+        "date"
+      ]
+    },
+    {
+      "id": "sz-006",
+      "source_cluster": "cluster-159bd054eeb3",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "insufficient_evidence",
+        "policy_scope"
+      ]
+    },
+    {
+      "id": "sz-007",
+      "source_cluster": "cluster-022870ae346d",
+      "proposed_split": "test_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "correct",
+        "scope"
+      ]
+    },
+    {
+      "id": "sz-008",
+      "source_cluster": "cluster-022870ae346d",
+      "proposed_split": "test_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error",
+        "scope"
+      ]
+    },
+    {
+      "id": "sz-009",
+      "source_cluster": "cluster-ccfeb9aaa470",
+      "proposed_split": "validation_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "correct",
+        "historical_context"
+      ]
+    },
+    {
+      "id": "sz-010",
+      "source_cluster": "cluster-ccfeb9aaa470",
+      "proposed_split": "validation_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error",
+        "version"
+      ]
+    },
+    {
+      "id": "sz-011",
+      "source_cluster": "cluster-e5f96fbc5d86",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "insufficient_evidence",
+        "quotation"
+      ]
+    },
+    {
+      "id": "sz-012",
+      "source_cluster": "cluster-0c0c9ebfb0a7",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "insufficient_context",
+        "entity"
+      ]
+    },
+    {
+      "id": "sz-013",
+      "source_cluster": "cluster-3421966f1809",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "conflicting_evidence",
+        "human_review"
+      ]
+    },
+    {
+      "id": "sz-014",
+      "source_cluster": "cluster-eb9ba6b2e69d",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error",
+        "multiple_issues"
+      ]
+    },
+    {
+      "id": "sz-015",
+      "source_cluster": "cluster-c0c324856454",
+      "proposed_split": "dev",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "correct",
+        "embedded_instruction"
+      ]
+    },
+    {
+      "id": "sz-016",
+      "source_cluster": "cluster-8c0c69f3bba2",
+      "proposed_split": "test_candidate",
+      "current_use": "public_dev_seed",
+      "tags": [
+        "explicit_error",
+        "unicode",
+        "repeated_context"
+      ]
+    }
+  ]
+}

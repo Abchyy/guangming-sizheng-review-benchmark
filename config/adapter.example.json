@@ -1,0 +1,10 @@
+{
+  "command": ["python3", "REPLACE_WITH_REAL_ADAPTER.py"],
+  "cwd": ".",
+  "timeout_seconds": 30,
+  "repeats": 1,
+  "application_version": "待提供",
+  "model_version": "待提供",
+  "knowledge_snapshot": "待提供",
+  "budget_authorization": null
+}

@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "status": "draft_artifact_fingerprint_not_frozen_gold",
+  "files": {
+    ".gitignore": "b94f9186b087ddee9dd4e0e7d74da3aee950b8856834abb15e44b43841b5abf5",
+    "README.md": "8646f9264e12f196519150610ab6098ddb9678598f96ffedc0bc2822a26273a2",
+    "config/adapter.example.json": "59117d0d08e9456c6b9d33cb330c225efa9b80394f88e742a05f91a601e4c378",
+    "data/candidate_answers.jsonl": "291f6326c15cab7f7388d6e42d000b7817efb9ab402e69ea37df07a42a9cd89b",
+    "data/seeds.jsonl": "6c6c12bf7e77e01b77fca6f4bb7d200fb5c04ec18a88e626e3c5811ee51da9da",
+    "data/sources.jsonl": "f89e411e3e109169ab6066ca9e32a2ff0415ac5ac90f3709a82bae18e1adc536",
+    "scripts/bench.py": "26102f2bc9078d2fc150c91dc395d7c469f501b6693cc940effdf24a3f0f1948",
+    "scripts/generate_seeds.py": "bd529ed10fb9301e67712bb17dc62adff76e81cd326394be8acb02c6f7d4174b",
+    "scripts/run_adapter.py": "b5244835e503f9aff879507f5da504c724476de9cdee5be746e9db0bb628967b",
+    "scripts/tool_selfcheck.py": "066513546d79256aa8844280f195cb832d8e366a6bddc09433a0821c8cf939e9",
+    "splits/proposed.json": "c1f79374a953f1efc075baf0cf732ba4ad6619ab4ec58ea1ff1bf259b0426d27",
+    "templates/标注模板.json": "4ae3a4828369e77d12e0edeae77c8758841dc98aa5a98a29700c94f2e40e34b4",
+    "交付记录.md": "558109ce5a05e3aaf45e1a948530e2f0314cda5e7660abdba64ac1392737f4b7",
+    "接口规范.md": "16975f09fe96aff34a493464fc85ee8ac1b259694bdb15be751b02d4c50d23b4",
+    "方案.md": "461bd9cb5b5fc51bacd393cafcf1cb938a8c6ad3939d8877a75569ddd0a98b8a",
+    "来源说明.md": "3ba3cd80692ac419c1fb9ad7644f8742de79019ad74071c5dfce671a2489f458",
+    "标注规范.md": "7276a2a01d8a6c52ba5a9209aa2628293a8fddf453188e7590aa4f75e4e338da",
+    "评分规则.md": "690a1cabb87e4a549b37ea876e5feb1dd6a2b871ca6e405151c7f73c013a759c",
+    "资料清单.md": "58b51c733ec5a9df54e1776337724fe4374a27b4a2bd9fa8b4a2f1a1a8c10b5e"
+  },
+  "source_document": {
+    "name": "光明思政大模型-项目介绍.md",
+    "sha256": "fddeb2e70ed8ac9511807582bdc6280d2007c35be774cf2f76b93a70add704bf"
+  },
+  "missing": [
+    "expert approval",
+    "verified authority snapshots",
+    "independent final test",
+    "application baseline"
+  ]
+}

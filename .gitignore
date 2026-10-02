@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+results/
+approved/
+config/*adapter*.json
+!config/adapter.example.json
+*.pem
+*.key
+id_rsa*

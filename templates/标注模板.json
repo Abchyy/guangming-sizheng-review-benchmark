@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "review_status": "pending_review",
+  "case_annotation": {
+    "id": "待填写",
+    "review_status": "pending_review",
+    "original_text_sha256": null,
+    "lineage_ids": [],
+    "near_duplicate_ids": [],
+    "holdout_source_ids": [],
+    "decision": null,
+    "needs_human_review": null,
+    "issues": [{
+      "id": "e1", "type": null, "status": null, "risk": null,
+      "span": {"start": null, "end": null, "quote": null},
+      "evidence_required": null, "acceptable_source_ids": [],
+      "rationale": null, "revision_constraints": null,
+      "evidence_relation": null, "not_to_flag": [], "alternative_labels": []
+    }],
+    "reviewers": [], "adjudicator": null, "approved_at": null,
+    "disagreements": [], "change_reason": null
+  },
+  "source_review": {
+    "id": "待填写", "title": null, "url_or_internal_id": null,
+    "publisher": null, "edition": null, "page_or_clause": null,
+    "publication_date": null, "signed_date": null, "effective_date": null,
+    "valid_to": null, "scope": null, "original_excerpt": null,
+    "verification_status": "not_verified", "authority_verified": false,
+    "snapshot_sha256": null, "checked_by": null, "checked_at": null
+  },
+  "output_review": {
+    "id": "待填写", "repeat": 1, "output_sha256": null,
+    "review_status": "pending_review", "reviewer": null, "reviewed_at": null,
+    "evidence_score": null, "revision_score": null,
+    "item_reviews": [], "new_error": null, "fabricated_authority": null,
+    "reason": null
+  }
+}
